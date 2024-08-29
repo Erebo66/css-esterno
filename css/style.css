@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo pokemon</title>
+<style>
+    *{
+        margin: 0;
+        background-color:black; 
+        color: white;
+    }
+.titulo{
+    background-color:black;
+    color: yellow;
+    text-align: center;
+}
+.perqunta{
+    background-color: purple;
+    color: white;
+    text-align: center;
+}
+.pok{
+    border-image:space;
+}
+
+</style>
+</head>
+<body>
+<header>
+<H1 class="titulo">Pokémon</H1><!--Adicionar titulo-->
+<video width="100%" height="400" controls >
+    <source src="video/A CRIAÇÃO DO MUNDO POKÉMON _ A Origem do Universo Pt.1.mp4" type="video/mp4">
+</video>
+<br><!--Quebra uma linha-->
+
+<div class="perqunta">
+    <h2>O que é um pokémon?</h2>
+</header><!--Fazer uso como cabeçalho-->
+ <p><strong ><em>
+Pokémon são criaturas fictícias que pertencem ao universo da série de mesmo nome - Pokémon. Originalmente, a série foi criada como um jogo de videogame e, com a sua popularização, se espalhou para diversos outros formatos, como séries de TV, filmes e livros.
+ </em></strong></p>
+</div>
+
+<blockquote>As circunstâncias do nascimento de alguém são irrelevantes; é o que você faz com o dom da vida que determina quem você é.</blockquote>
+<cite>Mewtwo</cite>
+
+<a href="https://www.pensador.com/autor/pokemon/"><blockquote>Nós temos muita coisa em comum, a mesma terra, o mesmo ar, o mesmo céu. Talvez se começássemos a olhar para as coisas que temos em comum invés de diferente… Bom, quem sabe?</blockquote></a>
+
+<img src="https://ovicio.com.br/wp-content/uploads/2022/12/20221208-jornadas-pokemon-1200x675-1.webp" alt="O ponto alto" class="pok">
+<section>
+    <audio controls controlslist="nodownload">
+        <source src="audio/Pokémon Abertura em Português - Temos que Pegar (PT BR).mp3" type="audio/mpeg">
+    </audio>
+</section>
+
+<br><hr>
+<table width="100%" border="1" style="text-align:center;">
+    <caption>Vantagens e Desvantagens  </caption>
+    <thead>Tipos de Pokémon<tr>
+        <th>ATAQUE/DEFESA</th>
+        <th>FOGO</th>
+        <th>PLANTA</th>
+        <th>ÁGUA</th>
+    </tr></thead>
+    <tbody><tr>
+        <th>FOGO</th>
+        <th>1/2X</th>
+        <th>2X</th>
+        <th>1/2X</th>
+        <tr>
+            <th>PLANTA</th>
+            <th>1/2X</th>
+            <th>1/2X</th>
+            <th>2X</th>
+        </tr>
+    </tr></tbody>
+    <tfoot> <tr>
+        <th>ÁGUA</th>
+        <th>2X</th>
+        <th>1/2X</th>
+        <th>1/2X</th>
+    </tr></tfoot>
+</table>
+<h2>Pokémon mais forte</h2>
+<ol>
+<li>Arceus</li>
+<li>Mewtwo</li>
+<li>Mew</li>
+<li>Giratina</li>
+<li>Dialga</li>
+</ol>
+<h2>Pokémon mais populares</h2>
+<ul>
+    <li>Greninja</li>
+    <li>Lucario</li>
+    <li>Mimikyu</li>
+    <li>Charizard</li>
+    <li>Umbreon</li>
+</ul>
+
+ <iframe src="https://www.poke-blast-news.net/2013/07/mundo-pokemon.html" title="MEu mundo" width="500" height="100%"></iframe>
+ <br><hr><br>
+
+<h3>Me responda algumas perguntas</h3>
+<form action="">
+<label for="Campo_nome">NOME:</label>
+<input id="Campo_nome" type="text">
+<br><br>
+
+<select >
+    <option value="">conhece quanto de pokemon?</option>
+    <option value="Muito">Muito</option>
+    <option value="Medio">Medio</option>
+    <option value="Pouco">Pouco</option>
+</select>
+<br><br>
+
+<h3>você tem alguma duvida ou comentario?</h3>
+<textarea name="mesagen" placeholder="sua mensagen" rows="15" cols="55">comente</textarea>
+<br><br>
+
+<input type="submit" value="Enviar Formulário">
+<hr>
+</form>
+</body>
+</html>
